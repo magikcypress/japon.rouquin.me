@@ -117,10 +117,6 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 
-	eleventyConfig.addShortcode("map", function() {
-		return "https://umap.openstreetmap.fr/fr/map/rouquin-au-japon_890333#8/35.346/136.741"
-	});
-
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
